@@ -1,7 +1,7 @@
-section {
+.buttons_bar {
   background-color: #EBF3FA;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .wrapper {
     max-width: 260px;
@@ -53,6 +53,97 @@ section {
     .settings {
       background-image: url("../images/settings.svg");
       background-size: 15px 15px;
+    }
+  }
+}
+
+.log_in {
+  background-color: #EBF3FA;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  form {
+
+    max-width: 200px;
+    margin: auto;
+
+    label {
+      display: none;
+    }
+
+    input {
+      box-sizing: border-box;
+      width: 100%;
+      background: linear-gradient(312.9deg, rgba(255, 255, 255, 0.3) 4.49%, rgba(233, 240, 247, 0.3) 95.45%), #E9F0F7;
+      box-shadow: inset -3px -3px 10px rgba(255, 255, 255, 0.7), inset 3px 3px 10px rgba(138, 155, 189, 0.4);
+      border-radius: 60px;
+      outline: none;
+      border: none;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 14px;
+      color: #8F9BB2;
+      padding: 8px 10px;
+      margin-bottom: 16px;
+    }
+
+    .field{
+      background: linear-gradient(180deg, #EB0DFE 0%, #11CADE 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      &::placeholder{
+        background-image: url("../images/icon.svg");
+        background-size: 16px 16px;
+        background-position: right center;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-between;
+
+      input.social{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 95px;
+      }
+
+      .facebook{
+        &::placeholder{
+          background-image: url("../images/facebook.svg");
+          background-size: 10px 10px;
+          background-position: 68px center;
+          background-repeat: no-repeat;
+        }
+      }
+      .linkedin{
+        &::placeholder{
+          background-image: url("../images/Linkedin.svg");
+          background-size: 10px 10px;
+          background-position: right center;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    .login{
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      background: linear-gradient(312.9deg, rgba(255, 255, 255, 0.3) 4.49%, rgba(233, 240, 247, 0.3) 95.45%), #E9F0F7;
+      box-shadow: -3px -3px 10px rgba(255, 255, 255, 0.7), 3px 3px 10px rgba(138, 155, 189, 0.48);
+      border-radius: 60px;
+      text-align: center;
+      &::placeholder{
+        background-image: url("../images/lock.svg");
+        background-size: 10px 10px;
+        background-position: right center;
+        background-repeat: no-repeat;
+      }
     }
   }
 }
