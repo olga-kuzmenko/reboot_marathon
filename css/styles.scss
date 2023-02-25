@@ -117,7 +117,7 @@
         &::placeholder{
           background-image: url("../images/facebook.svg");
           background-size: 10px 10px;
-          background-position: 68px center;
+          background-position: right center;
           background-repeat: no-repeat;
         }
       }
@@ -141,7 +141,7 @@
       &::placeholder{
         background-image: url("../images/lock.svg");
         background-size: 10px 10px;
-        background-position: right center;
+        background-position: 35% center;
         background-repeat: no-repeat;
       }
     }

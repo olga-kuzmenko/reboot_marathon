@@ -102,7 +102,7 @@
 .log_in form .social .facebook::placeholder {
   background-image: url("../images/facebook.svg");
   background-size: 10px 10px;
-  background-position: 68px center;
+  background-position: right center;
   background-repeat: no-repeat;
 }
 .log_in form .social .linkedin::placeholder {
@@ -123,7 +123,7 @@
 .log_in form .login::placeholder {
   background-image: url("../images/lock.svg");
   background-size: 10px 10px;
-  background-position: right center;
+  background-position: 35% center;
   background-repeat: no-repeat;
 }
 
